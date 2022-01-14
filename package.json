@@ -4,19 +4,20 @@
   "description": "Pruebas automatizadas de una tienda de ropa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
   "keywords": [
     "qa",
     "automation",
-    "cypress",
-    "tienda",
-    "de",
-    "ropa"
+    "cypress"
   ],
   "author": "Zasso Sergio Martin",
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MartinQAGL/MyStoreAutomation"
   }
 }
