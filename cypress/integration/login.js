@@ -5,9 +5,15 @@ describe('Login', () => {
         cy.visit('/')
     })
     it('Login con mail incorrecto', () => {
-        cy.login(valuesLogin.email, valuesLogin.password)
+        cy.login(valuesLogin.emailIncorrecto, valuesLogin.passwordIncorrecto)
         cy.fixture('login').then((login) => {
             cy.get(login.incorrectLoginBanner).should('contain', valuesLogin.mensajeErrorEsperado)
+        })
+    })
+    it('Login con mail correcto', () => {
+        cy.login(valuesLogin.emailCorrecto, valuesLogin.passwordCorrecto)
+        cy.fixture('login').then((login) => {
+            cy.get(login.spanAccount).should('contain', valuesLogin.nombreUsuarioSpan)
         })
     })
 })

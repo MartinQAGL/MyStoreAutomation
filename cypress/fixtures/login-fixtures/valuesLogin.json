@@ -1,5 +1,8 @@
 {
-    "email": "email@incorrecto.com",
-    "password": "passwordIncorrecto",
-    "mensajeErrorEsperado": "Authentication failed."
+    "emailIncorrecto": "email@incorrecto.com",
+    "passwordIncorrecto": "passwordIncorrecto",
+    "mensajeErrorEsperado": "Authentication failed.",
+    "emailCorrecto":"email@correcto.com",
+    "passwordCorrecto":"123456",
+    "nombreUsuarioSpan":"automation test"
 }

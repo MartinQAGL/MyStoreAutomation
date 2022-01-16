@@ -3,5 +3,6 @@
     "email": "#email",
     "password": "#passwd",
     "loginButton": "#SubmitLogin > span",
-    "incorrectLoginBanner": "ol > li"
+    "incorrectLoginBanner": "ol > li",
+    "spanAccount":".account > span"
 }
