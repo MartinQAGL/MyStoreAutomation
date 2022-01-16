@@ -1,14 +1,13 @@
-describe('Login', function() {
-    beforeEach(function() {
+import valuesLogin from '../fixtures/login-fixtures/valuesLogin.json'
+
+describe('Login', () => {
+    beforeEach(() => {
         cy.visit('/')
-        cy.fixture('login-fixtures/valuesLogin').then(valuesLogin => {
-            this.valuesLogin = valuesLogin
-        })
     })
-    it('Login con mail incorrecto', function()  {
-        cy.login(this.valuesLogin.email, this.valuesLogin.password)
+    it('Login con mail incorrecto', () => {
+        cy.login(valuesLogin.email, valuesLogin.password)
         cy.fixture('login').then((login) => {
-            cy.get(login.incorrectLoginBanner).should('contain', this.valuesLogin.mensajeErrorEsperado)
+            cy.get(login.incorrectLoginBanner).should('contain', valuesLogin.mensajeErrorEsperado)
         })
     })
 })
