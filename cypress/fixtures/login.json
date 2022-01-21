@@ -1,8 +1,8 @@
 {
-    "loginLink": ".login",
-    "email": "#email",
-    "password": "#passwd",
-    "loginButton": "#SubmitLogin > span",
-    "incorrectLoginBanner": "ol > li",
-    "spanAccount":".account > span"
+    "loginLink": ".ico-login",
+    "email": "#Email",
+    "password": "#Password",
+    "loginButton": "form > .buttons > .button-1",
+    "incorrectLoginBanner": ".message-error > ul > li",
+    "iconoLogOut": ".ico-logout"
 }

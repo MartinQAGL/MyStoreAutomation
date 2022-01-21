@@ -1,3 +1,7 @@
 {
-    "baseUrl" : "http://automationpractice.com/"
+    "baseUrl" : "https://demo.nopcommerce.com/",
+    "viewportWidth": 1280,
+    "viewportHeight": 1024
+
 }
+ 

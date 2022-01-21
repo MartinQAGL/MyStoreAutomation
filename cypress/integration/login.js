@@ -13,7 +13,7 @@ describe('Login', () => {
     it('Login con mail correcto', () => {
         cy.login(valuesLogin.emailCorrecto, valuesLogin.passwordCorrecto)
         cy.fixture('login').then((login) => {
-            cy.get(login.spanAccount).should('contain', valuesLogin.nombreUsuarioSpan)
+            cy.get(login.iconoLogOut).should('be.visible')
         })
     })
 })

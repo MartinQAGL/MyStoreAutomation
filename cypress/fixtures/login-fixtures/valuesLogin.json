@@ -1,8 +1,8 @@
 {
     "emailIncorrecto": "email@incorrecto.com",
     "passwordIncorrecto": "passwordIncorrecto",
-    "mensajeErrorEsperado": "Authentication failed.",
+    "mensajeErrorEsperado": "No customer account found",
     "emailCorrecto":"email@correcto.com",
-    "passwordCorrecto":"123456",
-    "nombreUsuarioSpan":"automation test"
+    "passwordCorrecto":"123456"
+    
 }
