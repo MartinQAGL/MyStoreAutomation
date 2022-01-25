@@ -1,0 +1,7 @@
+{
+    "cuadroTextoBusqueda": "#small-searchterms",
+    "botonBusqueda": "#small-search-box-form > .button-1",
+    "elementoProductoEncontrado": ".product-title > a",
+    "elementoProductoNoEncontrado": ".no-result",
+    "mensajeProductoNoExistente": "No products were found that matched your criteria."
+}
