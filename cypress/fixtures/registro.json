@@ -1,0 +1,12 @@
+{
+    "botonRegister": ".ico-register",
+    "radioButtonMale": "#gender-male",
+    "cuadroTextoFirstName": "#FirstName",
+    "cuadroTextoLastName": "#FirstName",
+    "cuadroTextoEmail": "#Email",
+    "cuadroTextoPassword": "#Password",
+    "cuadroTextoConfirmPassword": "#ConfirmPassword",
+    "botonConfirmarRegister": "#register-button",
+    "labelResultadoRegistro": ".result",
+    "mensajeResultadoRegistroCompletado": "Your registration completed"
+}

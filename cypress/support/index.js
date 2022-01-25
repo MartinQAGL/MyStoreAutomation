@@ -17,6 +17,7 @@
 import './commands'
 import './loginCommands.js'
 import './busquedaCommands.js'
+import './registroCommands.js'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
