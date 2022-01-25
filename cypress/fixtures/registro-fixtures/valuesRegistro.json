@@ -1,3 +1,8 @@
 {
-    
+    "firstName": "Test",
+    "lastName": "Automation",
+    "password": "123456",
+    "confirmacionPassword": "123456",
+    "confirmacionPasswordIncorrecto": "654321",
+    "email": "email@correcto.com"
 }

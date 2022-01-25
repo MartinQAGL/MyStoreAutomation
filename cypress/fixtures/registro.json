@@ -2,11 +2,13 @@
     "botonRegister": ".ico-register",
     "radioButtonMale": "#gender-male",
     "cuadroTextoFirstName": "#FirstName",
-    "cuadroTextoLastName": "#FirstName",
+    "cuadroTextoLastName": "#LastName",
     "cuadroTextoEmail": "#Email",
     "cuadroTextoPassword": "#Password",
     "cuadroTextoConfirmPassword": "#ConfirmPassword",
     "botonConfirmarRegister": "#register-button",
     "labelResultadoRegistro": ".result",
-    "mensajeResultadoRegistroCompletado": "Your registration completed"
+    "mensajeResultadoRegistroCompletado": "Your registration completed",
+    "labelConfirmPasswordError": "#ConfirmPassword-error",
+    "mensajeConfirmPasswordError": "The password and confirmation password do not match."
 }
